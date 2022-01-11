@@ -1,1 +1,15 @@
-//
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.movie{
+    display: flex;
+    flex-wrap: wrap;
+.description{
+    text-align: center;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+}
