@@ -2,13 +2,13 @@
 
 @section('content')
 
+<h1>Movies</h1>
 <div class="container">
-    <h1>Movies</h1>
     @forelse ($movies as $movie)
     <div class="movie">
         <h3>{{$movie->title}}</h3>
         <div class="description">
-            <p>Titolo: {{$movie->original_title}}</p>
+            <p class="Title">Titolo: {{$movie->original_title}}</p>
             <p>Nazionalità: {{$movie->nationality}}</p>
             <p>Data rilascio: {{$movie->date}}</p>
             <span>Voto: {{$movie->vote}}</span>

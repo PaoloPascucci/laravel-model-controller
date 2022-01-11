@@ -3,13 +3,24 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
-.movie{
+h1{
+    text-align: center;
+}
+.container{
     display: flex;
     flex-wrap: wrap;
-.description{
+    justify-content: center;
+    align-content: center;
+    .movie{
+        width: 300px;
+        height: 200px;
     text-align: center;
     background-color: aquamarine;
-    width: 200px;
-    height: 200px;
-}
+    .description{
+        font-weight: bold;
+        p{
+            margin:1rem;
+        }
+    }
+    }
 }
